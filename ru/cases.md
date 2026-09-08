@@ -203,7 +203,7 @@ Microsoft Service Trust Portal, Google Cloud Compliance Reports Manager, AWS Art
 
 ## Связанные материалы
 
-- [certified-companies.md](certified-companies.md) – кто сертифицирован в Беларуси и Казахстане.
+- [certified-companies.md](certified-companies.md) – кто сертифицирован в Казахстане.
 - [ceo-brief.md](ceo-brief.md) – стоимость и финансовое обоснование.
 - [implementation-guide.md](implementation-guide.md) – этапы внедрения подробно.
 

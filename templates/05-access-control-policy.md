@@ -107,7 +107,7 @@ All organisation passwords must meet these minimums (aligned with NIST SP 800-63
 - New passwords are checked against a breach-corpus list (e.g., HaveIBeenPwned Passwords API) at setup and change.
 - A new password must not fully match the previous one.
 
-> *Compatibility with ISO 27001 and SOC 2.* ISO 27001 does not prescribe numeric password requirements – the policy must be **risk-based**, its form is at the organisation's discretion. NIST SP 800-63B §5.1.1.2 explicitly recommends the approach above. SOC 2 Type II sets no minimum under CC6.1, but most auditors expect a NIST-aligned policy. If your landscape is ISO 27001 only, plus Belarusian (STB 34.101.31) or Kazakh (ST RK) requirements, password rules may differ – keep the wording aligned with the national standard, but document the choice in the risk register.
+> *Compatibility with ISO 27001 and SOC 2.* ISO 27001 does not prescribe numeric password requirements – the policy must be **risk-based**, its form is at the organisation's discretion. NIST SP 800-63B §5.1.1.2 explicitly recommends the approach above. SOC 2 Type II sets no minimum under CC6.1, but most auditors expect a NIST-aligned policy. If your landscape is ISO 27001 only, plus Kazakh (ST RK) requirements, password rules may differ – keep the wording aligned with the national standard, but document the choice in the risk register.
 
 ### 6.2. Password usage and storage rules
 

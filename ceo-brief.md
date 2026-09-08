@@ -4,7 +4,7 @@
 
 By 2026, mid-market and enterprise B2B are framing ISO 27001 differently. The old debate was "do we certify or not." The new one is "how narrow do we scope it and when do we start."
 
-This file helps a CEO make the call and defend it to the board. All numbers are in USD, drawn from primary industry sources: [IBM Cost of a Data Breach Report](https://www.ibm.com/reports/data-breach) and aggregate reports from ISMS.online, Secureframe and Advisera. Local rates in Belarus and Kazakhstan can be 30–60% lower.
+This file helps a CEO make the call and defend it to the board. All numbers are in USD, drawn from primary industry sources: [IBM Cost of a Data Breach Report](https://www.ibm.com/reports/data-breach) and aggregate reports from ISMS.online, Secureframe and Advisera. Local rates in Kazakhstan can be 30–60% lower.
 
 *Русская версия: [../ceo-brief.md](../ceo-brief.md). Have a question? [Text us on Telegram](https://t.me/m/8NsOXRkMZmQy) – we'll reply personally.*
 
@@ -54,7 +54,7 @@ Five factors decide where in the range your project lands:
 
 **Mature security practice before you start.** If MFA, EDR, vulnerability scanning and basic policies are already in place, consulting costs drop 30–50%.
 
-**Local CB.** BelGISS in Belarus, NCA-accredited bodies in Kazakhstan. Usually 30–50% cheaper than international CBs, with comparable recognition inside local jurisdictions. If your priority is EU or UK markets, use an international CB with IAF MLA recognition.
+**Local CB.** NCA-accredited bodies in Kazakhstan. Usually 30–50% cheaper than international CBs, with comparable recognition inside local jurisdictions. If your priority is EU or UK markets, use an international CB with IAF MLA recognition.
 
 **GRC tooling instead of manual work.** Vanta, Drata, Sprinto and Secureframe automate evidence collection – 40–60% off FTE hours.
 
@@ -106,7 +106,7 @@ Companies that invest in security only after the first serious incident spend on
 
 ## Indirect benefits
 
-**Regulatory confidence.** One framework that covers GDPR, NIS2, DORA, UK GDPR, KVKK, UAE PDPL, and Belarusian and Kazakh laws. See [comparison-regulations.md](comparison-regulations.md). Lower compliance costs and faster reaction time to new requirements – a new law gets folded in over days, not months.
+**Regulatory confidence.** One framework that covers GDPR, NIS2, DORA, UK GDPR, KVKK, UAE PDPL and Kazakh law. See [comparison-regulations.md](comparison-regulations.md). Lower compliance costs and faster reaction time to new requirements – a new law gets folded in over days, not months.
 
 **Operational maturity.** Implementation gives you an asset inventory (often for the first time), a risk register, a working incident management process, and formalised supplier security. That cuts operational costs on rework and cleanup after configuration mistakes.
 

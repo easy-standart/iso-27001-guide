@@ -203,7 +203,7 @@ Full 3-year cycle: Stage 1 → Stage 2 → Surveillance 1 → Surveillance 2 →
 
 ## Related material
 
-- [certified-companies.md](certified-companies.md) – who's certified in Belarus and Kazakhstan.
+- [certified-companies.md](certified-companies.md) – who's certified in Kazakhstan.
 - [ceo-brief.md](ceo-brief.md) – cost and financial justification.
 - [implementation-guide.md](implementation-guide.md) – implementation phases in detail.
 

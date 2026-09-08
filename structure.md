@@ -140,12 +140,6 @@ A quick look at documents that come up less often but may matter:
 
 ## National adaptations
 
-### Belarus
-
-The valid edition is **СТБ ISO/IEC 27001**, identical to the international one. Certification is done by accredited bodies under the supervision of Госстандарт РБ and BSCA (Belarusian Centre for Accreditation). The main player is BelGISS.
-
-Alongside it runs a national cryptography framework – requirements from the OAC (Operational and Analytical Centre under the President of Belarus) and СТБ 34.101.31. This matters when choosing crypto algorithms for systems operating inside Belarus.
-
 ### Kazakhstan
 
 The valid edition is **СТ РК ISO/IEC 27001-2023**, equivalent to the international 2022 edition. Certification is done by bodies accredited by NCA RK (National Accreditation Centre).

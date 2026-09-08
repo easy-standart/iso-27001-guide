@@ -1,6 +1,6 @@
 # ISO/IEC 27001 – a working guide for executives
 
-> A practical reference for CISOs, compliance leads and process owners. Built around the realities of Belarusian and Kazakh businesses scaling into the EU, UK, UAE and Türkiye.
+> A practical reference for CISOs, compliance leads and process owners. Built around the realities of Kazakh businesses scaling into the EU, UK, UAE and Türkiye.
 
 A quick orientation if this is your first visit. ISO/IEC 27001 is the international standard for information security management systems. Companies get certified against it. One certificate replaces dozens of security questionnaires in B2B tenders and covers 60–70% of the security-side requirements of GDPR, NIS2 and DORA.
 
@@ -18,12 +18,12 @@ This repository is not yet another collection of English-language templates. It 
 | [glossary.md](glossary.md) | ISMS terminology. The source of truth for the rest of the content |
 | [annex-a-guide.md](annex-a-guide.md) | 93 Annex A controls: what they require, what ready evidence looks like |
 | [checklist.md](checklist.md) | Working readiness checklist for Stage 1 and Stage 2 |
-| [comparison-regulations.md](comparison-regulations.md) | How 27001 maps to GDPR, NIS2, DORA, UK GDPR, UAE PDPL, KVKK, Belarusian and Kazakh laws |
+| [comparison-regulations.md](comparison-regulations.md) | How 27001 maps to GDPR, NIS2, DORA, UK GDPR, UAE PDPL, KVKK and Kazakh law |
 | [implementation-guide.md](implementation-guide.md) | ISMS implementation phases from project start to certificate |
 | [verticals.md](verticals.md) | Sector-specific angles: FinTech, healthcare, SaaS, government |
 | [ceo-brief.md](ceo-brief.md) | Financial decision for the CEO: TCO, ROI, payback |
 | [cases.md](cases.md) | Public certification cases of major corporations |
-| [certified-companies.md](certified-companies.md) | Who is actually certified in Belarus, Kazakhstan and globally |
+| [certified-companies.md](certified-companies.md) | Who is actually certified in Kazakhstan and globally |
 | [faq.md](faq.md) | Answers to questions executives ask most often |
 
 ---
@@ -44,7 +44,7 @@ Pick the scenario that fits you.
 
 ## Who this is for
 
-The repository targets executives who don't dig into the technical details of information security but make decisions about budget and priorities. If you're an engineer hunting for YAML-style checklists – there are hundreds of those on GitHub. This one is different: the language of business, regional context, and connections to regulation in Belarus, Kazakhstan, the EU, UK, UAE and Türkiye.
+The repository targets executives who don't dig into the technical details of information security but make decisions about budget and priorities. If you're an engineer hunting for YAML-style checklists – there are hundreds of those on GitHub. This one is different: the language of business, regional context, and connections to regulation in Kazakhstan, the EU, UK, UAE and Türkiye.
 
 The content is useful if you are:
 
@@ -58,7 +58,7 @@ The content is useful if you are:
 
 ## About Easy Standart
 
-This repository is maintained by **Easy Standart** – a consultancy that helps businesses get certified to ISO standards. We work in Belarus and Kazakhstan and help our clients expand internationally.
+This repository is maintained by **Easy Standart** – a consultancy that helps businesses get certified to ISO standards. We work in Kazakhstan and help our clients expand internationally.
 
 We share knowledge freely because an informed client is the best client. If you're left with questions or need help with implementation – we're around.
 
@@ -70,7 +70,7 @@ We share knowledge freely because an informed client is the best client. If you'
 
 ## Sources
 
-Every file in the repository links out to primary sources: ISO, EUR-Lex, ENISA, NIST, ICO, BSI, IBM, national regulators of Belarus and Kazakhstan. Where industry estimates are quoted, they come from ISMS.online, Advisera, Schellman and Secureframe reviews and are flagged in the text as secondary sources.
+Every file in the repository links out to primary sources: ISO, EUR-Lex, ENISA, NIST, ICO, BSI, IBM, national regulators of Kazakhstan. Where industry estimates are quoted, they come from ISMS.online, Advisera, Schellman and Secureframe reviews and are flagged in the text as secondary sources.
 
 If you spot an outdated link or factual error – open an Issue or a Pull Request. The content is reviewed twice a year to reflect changes in regulation and industry practice.
 

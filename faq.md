@@ -10,7 +10,7 @@
 
 ISO 27001 is a voluntary international standard. No government forces you to get certified. But enterprise buyers and regulators effectively make the certificate mandatory – without it you don't make tenders, or contracts come with extra requirements attached.
 
-Belarus uses **СТБ ISO/IEC 27001**, Kazakhstan uses **СТ РК ISO/IEC 27001-2023**. Both national versions are identical to the international edition.
+Kazakhstan uses **СТ РК ISO/IEC 27001-2023** – a national version identical to the international edition.
 
 More detail in [structure.md](structure.md).
 
@@ -29,16 +29,6 @@ No universal price list exists: company size, security maturity, scope width, ge
 - With a mature 27001:2013 (transition): 3–6 months. The transition window has closed; this scenario is effectively exhausted.
 
 Phase breakdown and details in [implementation-guide.md](implementation-guide.md).
-
----
-
-## Is a BelGISS certificate recognised abroad?
-
-In most cases, yes. BelGISS registers certificates in **IAF CertSearch** – the international database. That gives international recognition through the IAF MLA system, provided BSCA's accreditation scope is signed under the MLA.
-
-For tenders within the Eurasian Economic Union, most of Asia and CIS countries, a BelGISS certificate works out of the box. For major enterprise tenders in the US, EU or UK, buyers sometimes want a CB from their own jurisdiction – worth clarifying upfront.
-
-More detail in [certified-companies.md](certified-companies.md).
 
 ---
 

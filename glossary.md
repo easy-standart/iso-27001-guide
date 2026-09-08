@@ -88,7 +88,7 @@ Other definitions follow the wording of the standards themselves: [ISO/IEC 27001
 
 **PII (Personally Identifiable Information).** Any information relating to an identified or identifiable natural person. In Russian usage – "personal data."
 
-**PII Controller.** Party that determines the purposes and means of processing personal data. GDPR calls this the "controller"; Belarusian and Kazakh laws call it the "operator."
+**PII Controller.** Party that determines the purposes and means of processing personal data. GDPR calls this the "controller"; Kazakh law calls it the "operator."
 
 **PII Processor.** Party processing personal data on behalf of the controller. Typical examples – cloud providers, outsourced development, marketing agencies.
 

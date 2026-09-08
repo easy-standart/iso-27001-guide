@@ -19,7 +19,7 @@ The financial sector is the most heavily regulated. Several layers usually stack
 - **DORA** (EU 2022/2554) – effective from 17 January 2025. Requires a tight incident-notification clock (initial report within 4 hours of classifying an incident as major), robust supply chain controls, TLPT testing, register of critical providers.
 - **PCI DSS 4.0.1** – mandatory for anyone storing, processing or transmitting cardholder data.
 - **EBA / EIOPA Guidelines** – for banking and insurance in the EU.
-- **Local regulators** – National Bank of Belarus, ARDFM of Kazakhstan, Bank of England PRA in the UK, Central Bank of the UAE.
+- **Local regulators** – ARDFM of Kazakhstan, Bank of England PRA in the UK, Central Bank of the UAE.
 
 ### What ISO 27001 certification delivers
 
@@ -105,7 +105,7 @@ For HR-tech, EdTech, marketplace platforms and any services doing mass processin
 What becomes critical:
 
 - **ISO 27701 (PIMS)** – effectively a mandatory extension to 27001.
-- **GDPR, UK GDPR, Law of Belarus 99-Z, Law of Kazakhstan 94-V, KVKK, UAE PDPL** – data subject rights as daily operational work.
+- **GDPR, UK GDPR, Law of Kazakhstan 94-V, KVKK, UAE PDPL** – data subject rights as daily operational work.
 - **Data localization** – for Kazakhstan (Law 94-V), for certain EU regions, and for Türkiye.
 
 ### Which controls matter most
@@ -150,7 +150,7 @@ For government and critical infrastructure operators (energy, transport, telecom
 - **NIS2** in the EU.
 - **NESA / SIA** in the UAE for critical sectors.
 - **UK NIS Regulations** – UK competent authorities by sector.
-- Local critical infrastructure laws in Belarus and Kazakhstan – details vary and need to be clarified organisation by organisation.
+- Local critical infrastructure laws in Kazakhstan – details vary and need to be clarified organisation by organisation.
 
 Complementary standards:
 

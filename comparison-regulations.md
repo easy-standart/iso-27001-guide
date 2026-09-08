@@ -1,12 +1,12 @@
 # ISO/IEC 27001 and regulation: what one certificate actually covers
 
-> A map of how the standard maps to laws and regulations in the EU, UK, UAE, Türkiye, Belarus and Kazakhstan – and where the certificate leaves gaps that need extra steps.
+> A map of how the standard maps to laws and regulations in the EU, UK, UAE, Türkiye and Kazakhstan – and where the certificate leaves gaps that need extra steps.
 
 One of the most common questions from a CEO: "If we get certified to ISO 27001, are we automatically compliant with GDPR? Or NIS2? Or our local data protection law?"
 
 Short answer: no, not automatically. The certificate covers a significant share – sometimes 60–70% of the requirements. But no regulator waives specific obligations just because you hold the certificate.
 
-This file is a detailed breakdown for companies in Belarus and Kazakhstan expanding into international markets.
+This file is a detailed breakdown for companies in Kazakhstan expanding into international markets.
 
 *Русская версия: [../comparison-regulations.md](../comparison-regulations.md). Have a question? [Text us on Telegram](https://t.me/m/8NsOXRkMZmQy) – we'll reply personally.*
 
@@ -119,24 +119,6 @@ Adopted on 7 April 2016 – the first national Turkish law on personal data. Enf
 
 ---
 
-## Belarus
-
-### Law No. 99-Z "On Personal Data Protection" (7 May 2021)
-
-In force since 15 November 2021. Enforced by the National Centre for Personal Data Protection (NCDPD).
-
-**What ISO 27001 covers.** The standard provides an ISMS framework that satisfies the requirements for "organisational and technical measures" on the security side.
-
-**What it doesn't cover.** Registration with NCDPD, classification of information resources containing personal data, and the list of countries with "adequate level" for cross-border transfer. Cryptography must align with OAC (Operational and Analytical Centre) requirements and СТБ 34.101.31 (STB – Belarusian national standard for cryptographic protocols) – specifics that aren't in the international 27001:2022 edition.
-
-In 2021, NCDPD published [the first official commentary](https://jurist.by/statia/nczpd-podgotovlen-pervyj-postatejnyj-kommentarij-k-zakonu-o-zashchite-personalnyh-dannyh) on the law – a practical document for building a compliance program.
-
-### СТБ ISO/IEC 27001
-
-The current national edition, identical to the international one. Certification is done through accredited bodies under Госстандарт РБ and BSCA.
-
----
-
 ## Kazakhstan
 
 ### Law of the Republic of Kazakhstan No. 94-V "On Personal Data and Their Protection" (21 May 2013)
@@ -170,7 +152,6 @@ The 27001 certificate is a strong foundation. But no regulator waives specific o
 | DIFC DPL | Registration with Commissioner of Data Protection, accountability, adequacy lists |
 | NESA and SIA (UAE) | Mandatory for critical sectors, SIA reporting, specific controls across 11 domains |
 | KVKK (Türkiye) | Mandatory VERBIS registration, consent specifics, cross-border transfer restrictions |
-| Law of Belarus 99-Z | NCDPD registration, classification of resources, OAC cryptography, STB 34.101.31 |
 | Law of Kazakhstan 94-V | PD localisation on servers in Kazakhstan, СТ РК cryptography requirements |
 
 ---
@@ -187,13 +168,13 @@ The standard adds a **management layer** – the kind of thing regulations don't
 
 ---
 
-## Strategy for businesses from Belarus and Kazakhstan with export plans
+## Strategy for businesses from Kazakhstan with export plans
 
-If you're building from Belarus or Kazakhstan with EU, UK, UAE or Türkiye in sight, the typical sequence:
+If you're building from Kazakhstan with EU, UK, UAE or Türkiye in sight, the typical sequence:
 
 1. **Implement an ISMS to ISO/IEC 27001:2022.** A baseline framework recognised by all the regulators above.
-2. **Extend scope with ISO/IEC 27701.** This covers privacy requirements from GDPR, UK GDPR, UAE PDPL, DIFC DPL, KVKK, and Belarusian and Kazakh laws.
-3. **Adapt cryptography to the home market.** OAC for Belarus, СТ РК for Kazakhstan – without this, 27001 stalls in the local jurisdiction.
+2. **Extend scope with ISO/IEC 27701.** This covers privacy requirements from GDPR, UK GDPR, UAE PDPL, DIFC DPL, KVKK and Kazakh law.
+3. **Adapt cryptography to the home market.** СТ РК for Kazakhstan – without this, 27001 stalls in the local jurisdiction.
 4. **Fold regulator timelines into the incident management playbook.** GDPR/UK GDPR 72 hours, NIS2 three-stage clock (24h / 72h / 1 month), DORA (4h / 72h / 1 month) – in one document with a clear escalation path.
 5. **For your target export market, add local-specific requirements.** UAE – NESA plus localisation in DIFC. Türkiye – VERBIS registration. UK – Cyber Essentials Plus as a pre-tender requirement.
 6. **Line up supplier security to what NIS2 and DORA buyers expect.** Their checklists are becoming the standard for B2B export into the EU.

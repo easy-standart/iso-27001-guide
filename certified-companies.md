@@ -68,7 +68,7 @@ JAS-ANZ (Japan/Australia), CNAS (China), NABCB (India) and MASA (Singapore) are 
 
 ### CIS region
 
-*If you're a company based in the CIS, see the [Russian version of this repo](../certified-companies.md) for detail. In short: local certification bodies (BelGISS in Belarus, NCA-accredited bodies in Kazakhstan) are usually accepted for regional tenders. For EU, UK or US contracts, buyers often require an accredited body from those jurisdictions instead.*
+*If you're a company based in the CIS, see the [Russian version of this repo](../certified-companies.md) for detail. In short: local NCA-accredited certification bodies in Kazakhstan are usually accepted for regional tenders. For EU, UK or US contracts, buyers often require an accredited body from those jurisdictions instead.*
 
 ---
 
