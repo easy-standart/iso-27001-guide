@@ -6,7 +6,7 @@ A quick orientation if this is your first visit. ISO/IEC 27001 is the internatio
 
 This repository is not yet another collection of English-language templates. It is practical material focused on what the standard demands, what it costs, the right sequence to implement it, the mistakes that sink projects at Stage 2, and how the certificate turns into real revenue.
 
-*Русская версия: [../README.md](../README.md). Have a question? [Text us on Telegram](https://t.me/m/8NsOXRkMZmQy) – we'll reply personally.*
+*Русская версия: [ru/README.md](ru/README.md). Have a question? [Text us on Telegram](https://t.me/m/8NsOXRkMZmQy) – we'll reply personally.*
 
 ---
 
