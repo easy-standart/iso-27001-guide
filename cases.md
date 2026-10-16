@@ -144,9 +144,65 @@ An example of a company that under GDPR pressure and enterprise B2B clients (cor
 
 ---
 
+## Case 8. Denmark's CPR register: 8.8 million records through one contractor (2026)
+
+> Cases 1–7 show who is certified. This one is different: it is an incident, not a certificate. We include it because it shows step by step where the requirements of ISO/IEC 27001:2022 would have worked. The investigation is still going, and details may change.
+
+### What happened
+
+Denmark's central population register (CPR) holds names, addresses and personal ID numbers. Access is granted to 1,039 companies that need to verify customer data: banks, insurers, telecom operators, law firms. One of them was the IT company Pays ApS from Odense.
+
+From 10 September 2026 a bulk extraction ran through its access. According to the Danish authorities, names, addresses and CPR numbers of about **8.8 million people** (including deceased and emigrated) were obtained, with more than **14 million** query attempts over roughly ten days. Access stayed open for 21 days and 17 hours in total.
+
+The register itself was not hacked. No vulnerability in the system was used: every request was formally within the company's rights. There were simply far too many of them.
+
+It was noticed on 2 October, and not by a security system. While invoicing for September, the register's side saw an unusually large bill for the contractor's queries. Access was closed, and on 5 October the ministry announced the leak.
+
+### What is confirmed and what is not
+
+**Confirmed** (authorities, the company, Danish media): the legitimate access of Pays ApS was misused; the volume of requests was out of proportion to its business; the leak was found through the bill. Pays confirmed to TV 2 that its access had been misused.
+
+**Reported by Politiken**: at least three Pays profiles, including an administrator one, used the password "123456".
+
+**Claimed by the hacker, not confirmed by the authorities**: entry via a leaked password of a former Pays employee; the bulk-query program was written by AI (two experts who saw the code agreed). It is not publicly established whether two-factor authentication was enabled on these accounts.
+
+### Where the chain could have been broken
+
+We do not claim that an ISO 27001 certificate would have prevented this attack. Below are the requirements that cover the scenarios described. Annex A of ISO/IEC 27001:2022 contains 93 controls.
+
+| Step in the chain | Control |
+|---|---|
+| Weak or leaked password | **5.17** Authentication information, **8.5** Secure authentication |
+| Access of a person who no longer works at the company | **5.18** Access rights, **6.5** Responsibilities after termination or change of employment |
+| Administrator accounts | **8.2** Privileged access rights |
+| A contractor with access to your data | **5.19** Information security in supplier relationships, **5.22** Monitoring, review and change management of supplier services |
+| 14 million requests from a small company | **8.16** Monitoring activities (new in the 2022 edition) |
+
+The login to the register was checked; the volume of requests was not. After the leak, the register's administration wrote to all 1,039 companies with new requirements: a person responsible for security, regular review of which employees have access, and a monthly count of CPR requests to spot abuse. For an organisation with a working ISMS this is a familiar list. In Denmark it appeared after the leak.
+
+### What this means for your business
+
+Three questions every company that gives contractors access to data can ask this week:
+
+- How many external companies have access to our data, and does any of them see more than the work requires?
+- What happens if a contractor makes fourteen million requests instead of a hundred? Will we notice ourselves, or from an invoice?
+- Does the same apply to AI assistants and automations connected to client data? In practice they are the same contractor with a key: fast, round the clock, and with the same questions about ownership, logging and monitoring.
+
+Sources:
+
+- [TV 2 – live coverage of the leak](https://nyheder.tv2.dk/live/samfund/2026-10-05-uvedkommende-har-faaet-adgang-til-88-millioner-cpr-numre) (in Danish).
+- [DR/Ritzau – 1,039 companies receive stricter security requirements](https://www.dr.dk/nyheder/politik/1039-virksomheder-har-faaet-indskaerpet-sikkerhed-efter-cpr-laek) (in Danish).
+- [Søg og Hør, citing Politiken – at least three profiles used "123456"](https://www.seoghoer.dk/nyheder/nye-detaljer-om-cpr-laek-mindst-tre-profiler-brugte-123456-adgangskode) (in Danish).
+- [TV 2 Fyn – artificial intelligence used in the leak](https://www.tv2fyn.dk/fyn/kunstig-intelligens-blev-brugt-i-omfattende-cpr-laek-e6a7e) (in Danish).
+- [Copenhagen Post – "123456" password used in the CPR breach](https://cphpost.dk/2026-10-10/general/123456-password-used-in-massive-danish-cpr-data-breach/).
+- [CSIS – analysis of the CPR breach](https://www.csis.com/csis-tech-blog/the-hub/cpr-breach-denmark).
+- [WorkOS – third-party API access and the CPR breach](https://workos.com/blog/denmark-cpr-breach-third-party-api-access).
+
+---
+
 ## Pattern across cases
 
-All the examples above – from the three hyperscalers to European and Asian players – show the same pattern. If you're building a cloud, fintech, e-commerce or SaaS business and want to repeat the success – learn from them:
+All the certification examples above (cases 1–7) – from the three hyperscalers to European and Asian players – show the same pattern. If you're building a cloud, fintech, e-commerce or SaaS business and want to repeat the success – learn from them:
 
 ### Certification is never alone
 
